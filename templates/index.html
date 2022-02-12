@@ -1,6 +1,22 @@
 {%extends 'landingPage.html'%}
 {% block index%}
 
-<p>esta es la home</p>
+<style>
+    #foo {
+        position: fixed;
+        bottom: 300px;
+        right: 500px;
+        width: 800px;
+        height: 200px;
+      }
+</style>
+
+<div id="foo">
+    <h1>Mi nombre es Luis Gonzalez</h1>
+    <br><br>
+    <h3>Soy un estudiante de la ESEN</h3>
+    <img src="\static\images\archivo (1).jpg" style="width:120px; height:120px;">
+</div>
+
 
 {%endblock index%}
